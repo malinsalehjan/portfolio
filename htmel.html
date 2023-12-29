@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>First aid at 1-1-3: Prototype to enhance first aid knowledge</title>
+    <link rel="stylesheet" href="CSS/htmel.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+</head>
+
+<body> 
+    <div class="container">
+        <div class="top-left">         
+            <h1 id="jumping-heading"> malin saleh jan </h1>
+        </div>
+
+        <div class="top-right">
+            <nav class="nav">
+                <ul><a href="index.html">home</a></ul>
+                <ul><div id="portfolios" class="portfolios"><a href="index.html#portfolio">projects</a></div></ul> 
+                <ul> <div id="contact" class="contact"><a>contact</a></ul></div>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <div class="contents"> 
+            <h7>First aid at 1-1-3: Prototype to enhance first aid knowledge </h7>
+            <p> I collaborated with a team of five designers on this student project to develop a high fidelity prototype aimed at helping our user group to strengthen their <strong>first aid knowledge</strong>.
+                By following a iterative design process we created a tangible interactive prototype, where we combined Arduino with participatory design to develop a desirable object 
+                <strong>for</strong> our user group, <strong>with</strong> our user group.
+                <br><br>The research question was <strong>"How can we enhance first aid knowledge among parents with immigrant backgrounds from Afghanistan?"</strong>
+            </p>
+        </div>
+
+        <div class="project description">
+            <div class="approach">
+                <div class="approach-section">
+                    <h6>Process</h6>
+                    <p> 
+                        Duration of the project was four months which was divided into five iterations.
+                        We worked agile in teams, combining some of the flexible aspects of Kanban together with aspects of Scrum to best fit the strict deadlines and goals. 
+                        We did this project spring 2020 during the Covid-19 lock-down, which limited the access to our sources  - so we had to get creative with what we had!
+                    </p>
+                </div>
+            
+                <div class="approach-section">
+                    <h6>My contributions</h6>
+                    <p> 
+                        In this project, my primary responsibilities involved developing the prototype including the tecnhnical aspects with Arduino, as well as testing and evaluation with users.
+                        Additionally, I was in charge of planning and writing both the project report and co-writing the technical report.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bilder">
+                <li><img src="pictures/HTM-EL/timeline.png"></li>
+            </div>
+
+                <div class="about">
+                    <h2>First aid at 1-1-3?</h2>
+
+                    <div class="about-content">
+                        <div class="about-text">
+                            <h3>Issue</h3>
+                            <p> Although first aid is a fundamental skill that everyone should master, 
+                                emergency situations can induce uncertainty, 
+                                leading to valuable time lost. Our goal is to <strong>decrease the uncertainty</strong>  associated with performing first aid and 
+                                <strong>enhance it’s efficiency.</strong></p>
+                            
+                            <h3>User group</h3>
+                            <p>According to forskning.no, families with minority languages have poorer knowledge of first aid and prevention 
+                                of injuries and accidents compared to Norwegian-speaking families. 
+                                Therefore, we chose to focus on immigrants, specifically narrowing our attention to <strong>parents with immigrant backgrounds from Afghanistan.</strong>
+                                 We saw this as a relevant topic for this target group, and we had access to this user group.</p>
+    
+                            <h3>Technical aspect</h3>
+                            <p>
+                                Arduino UNO were used to make his prototype <strong>tangible</strong>, 
+                                enabling it to signal using LEDs. This was achieved through the integration of buttons and sound features connected to a rescue doll.
+
+                            <h3> Evaluation during the design process</h3>
+                            <p>For each iteration of our prototyping process, we conducted <strong>evaluations with users</strong> and adjusted the design of the 
+                                prototype according to the feedback received. This approach ensured that we were consistently working towards a final prototype 
+                                that genuinely met the users' needs and desires.
+                            </p>
+                        </div>
+                                    
+                        <div class="about-images">
+                            <ul class="image-list">
+                                <li><img src="pictures/HTM-EL/sketch.png" ></li>
+                            </ul>
+                            <ul class="image-list">
+                                <li><img src="pictures/HTM-EL/skissekort.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process">
+                    <div class="sprint-buttons">
+                        <h4>The design process in iterations</h4>
+                        <button class="sprint-btn" onclick="showSlide(0)">1</button>
+                        <button class="sprint-btn" onclick="showSlide(1)">2</button>
+                        <button class="sprint-btn" onclick="showSlide(2)">3</button>
+                        <button class="sprint-btn" onclick="showSlide(3)">4</button>
+                        <button class="sprint-btn" onclick="showSlide(4)">5</button>
+                    </div>
+
+                <div class="sprint-slideshow">
+                    <button class="sprint-nav-btn prev" onclick="moveSlide(-1)"><img src="icons/previous.svg" alt="Previous"></button>
+
+                    <div class="sprint">
+                        <div class="sprint-container">
+                            <div class="sprintImg">
+                                <img src="pictures/HTM-EL/forstehjelp.png" class="image-medium">
+                                <img src="pictures/HTM-EL/affinity.png" class="image-medium">
+                            </div>
+
+                            <div class="sprintText">
+                                <h4>Iteration 1 - data collection + analysis </h4>
+                                <p> We conducted semi-structured interviews and observations to acquire a better understanding of the <strong> users' challenges and habits</strong> in first aid training.
+                                    We then started the data analysis by transcribing the interviews followed by methodically creating an affinity diagram to organize and categorize the subjects
+
+                                    <br><br> <strong>What did we find?</strong> 
+                                    <br>Cultural Understanding and Training Needs: We discovered that Afghan culture typically does not emphasize first aid education, leading to a lack of <strong>familarity and practice</strong> among Afghan immigrants.
+                                   <br><br> Practical Training and Simplification: Our analysis indicated the necessity for practical, <strong>hands-on first aid training</strong> that is straightforward and specifically tailored to meet the users's needs. 
+                                    This approach aims to make life-saving first aid more approachable and less daunting, enhancing <strong>confidence and preparedness </strong>to administer first aid in emergency situations.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="sprint">
+                        <div class="sprint-container">
+                            <div class="sprintImg">
+                                <img src="pictures/HTM-EL/boardgame.png" class="image-small">
+                                <img src="pictures/HTM-EL/matkasse.png" class="image-small">
+                            </div>
+
+                            <div class="sprintText">
+                                <h4> Iteration 2 - exploration + prototyping </h4>
+                                In our design process, the first prototype concept of a board game aimed at teaching first aid to immigrant families was not well-received due to
+                                <strong>cultural unfamiliarity</strong> with board games and a focus on appearance over function.
+                                <br><br>Based on this feedback, we developed the second prototype inspired by Rescue Anne, a practical first aid training doll for CPR, which was more positively received 
+                                 for its <strong>approach to teaching </strong>first aid, though users preferred simpler instructions over complex scenarios.
+                                 We therefore went on with this prototype to the next iteration.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="sprint">
+                        <div class="sprint-container">
+                            <div class="sprintImg">
+                                <img src="pictures/HTM-EL/proto.png" class="image-extra-small">
+                                <img src="pictures/HTM-EL/cards.png" class="image-medium">
+                            </div>
+
+                            <div class="sprintText">
+                                <h4>Iteration 3 - prototyping + developing</h4>
+                                <p>Building on the second low-fidelity prototype, we developed "First aid on 1-1-3," 
+                                    a solution consisting of cards with images of first aid actions on one side and simple Norwegian explanations on the other,
+                                    supplemented by a checklist and traffic light system to indicate completed steps. 
+
+                                    <br><br><strong>Usability testing</strong> with a cushion as a substitute for a real person (advised by Red Cross volunteers) showed users understood the concept and appreciated the addition of sound for CPR feedback,
+                                     leading us to refine our prototype to include a clear sequence of actions, as well as functional requirements like blinking and sound signals for each chest compression, and an overall coherent presentation of the first aid process.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sprint">  
+                        <div class="sprint-container">  
+                            <div class="sprintImg">
+                                <img src="pictures/HTM-EL/final.png"class="image-large">
+                            </div>
+
+                            <div class="sprintText">
+                                <h4>Iteration 4 - further developing + summative testing</h4>   
+                                <p>In the fourth iteration of developing, we finalized the solution by 
+                                    incorporating a <strong>mind map</strong> from a first aid course, creating detailed, high-resolution A6-sized cards for each step in first aid, 
+                                    including stable side position, assessing unconsciousness, and CPR. These cards were color-coded to correspond with LED lights in the solution,
+                                    enhancing learnability and efficiency. We also integrated audio cues for CPR to facilitate ease of use without the need to focus on blinking lights. 
+
+                                    <br><br>During usability testing, we emphasized <strong>efficiency and learnability</strong> to evaluate how easily and effectively users 
+                                    could interact with the solution. Although users found the solution straightforward and logical, 
+                                    some technical challenges were noted, such as difficulty pressing buttons and power supply limitations.
+                                </p>
+                        
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sprint sprint5">  
+                        <h4>Sprint 5 - final finishes + result</h4>   
+                        <div class="sprint-container">  
+                            <div class="sprintImg">
+                                <img src="pictures/HTM-EL/siste.png"class="image-medium">
+                                <img src="pictures/HTM-EL/siste1.png"class="image-medium">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="sprint-nav-btn next" onclick="moveSlide(1)"><img src="icons/next.svg" alt="Next"></button>
+                </div>
+
+                    <div class="learn">
+                            <h4>Takeaways</h4>
+                            <p>
+                            Conducting the "Designing with  users" method was a quite challenging part during the COVID-19 lock-down, in addition to data collection and evaluations, which all were conducted over Zoom.
+                             This made us aware of the significant difference in communicating over Zoom versus in person, meaning we had to adjust our communication methods when we noticed lack of understanding.
+                             In return did this encouraged us to think even more creatively, pushing us to adapt innovative approaches on a short time.
+                              I found this to be very educational, imparting valuable lessons that I have since applied to other projects.
+                            </p>
+                    </div>
+                </div>
+            </div>  
+
+    </main>
+
+    <button id="backToTop" class="up" onclick="scrollToTop()"><img src="icons/up.svg" alt="up"></button>
+    <footer>
+        <div class="logo">
+            <li><a href="https://github.com/malinsalehjan"><img src="icons/github.svg"></a></li>
+        </div>
+
+        <div id="contact" class="contact-info">
+            <div class="footer-text">
+                <h5>Let's talk!</h5>
+                <p> +47 92643712 </p>
+                <p> malinsalehjan@gmail.com </p>
+            </div>
+        </div>
+    </footer>
+    <script src="htmlel.js"></script>
+</body>
+</html>

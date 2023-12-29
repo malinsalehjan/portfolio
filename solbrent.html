@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solbrent - Weather Data App for Sun Exposure</title>
+    <link rel="stylesheet" href="CSS/solbrent.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-left">         
+            <h1 id="jumping-heading"> malin saleh jan </h1>
+        </div>
+
+        <div class="top-right">
+            <nav class="nav">
+                <ul><a href="index.html">home</a></ul>
+                <ul><div id="portfolios" class="portfolios"><a href="index.html#portfolio">projects</a></div></ul> 
+                <ul> <div id="contact" class="contact"><a>contact</a></ul></div>
+            </nav>
+        </div>
+    </div>
+    
+    <main>  
+        <div class="contents"> 
+            <h7>Solbrent - Weather Data App for Sun Exposure</h7>
+            <p> I collaborated with a team of five to design and develop the app "Solbrent", aimed at assisting users in making <br> <strong>informed decisions about sun exposure.</strong> We received the award for Best Visual Designed App, spring 2022.
+                <br><br>
+                By designing an app for <strong>students between the age of 18-25</strong> that provides essential information, including weather<br> and UV-index for a specific location, the amount of D-vitamin they can acquire from sunlight,
+                and the estimated time   <br>it takes to get a sunburn, based on their skin type - <strong>according to the Fitzpatrick-scale. </strong>
+            </p>
+        </div>
+
+
+        <div class="bilder">
+            <ul>
+                <li><img src="pictures/Solbrent/hjemskjerm.jpg"></li>
+                <li><img src="pictures/Solbrent/slideup.jpg"></li>
+            </ul>
+        </div>
+            
+
+        <div class="project description">
+            <div class="approach">
+                <div class="approach-section">
+                    <h6>Process</h6>
+                    <p> 
+                        Duration of the project was four months, divided into four sprints, rounding each sprint up with a retrospective meeting. 
+                        We worked agile in teams, combining some of the flexible aspects of Kanban together with aspects of Scrum to best fit the strict deadlines and goals. 
+                    </p>
+                </div>
+            
+                <div class="approach-section">
+                    <h6>My contributions</h6>
+                    <p> 
+                        In this project, my primary responsibilities involved the design process, including the development of the application's visual design, 
+                        data collection and analysis, and also both integration, and user testing. 
+                        Additionally, I was in charge of planning and writing the project report.
+                    </p>
+                </div>
+            </div>
+
+
+                <div class="about">
+                    <h2>Solbrent?</h2>
+
+                    <div class="about-content">
+                        <div class="about-text">
+                            <h3>Issue</h3>
+                            <p>During the Covid-19 pandemic, vitamin D and it’s importance was a hotly debated topic. Two ways to ensure adequate vitamin D levels are through dietary supplements or sun exposure,<br> but - how can one find the balance between getting enough vitamin D, 
+                            catching a good tan, while not getting a sunburn? </p>
+                
+                            <h3>Technical aspect</h3>
+                            <p>
+                            The programming languages used were Kotlin and XML, and we used Android Studio for development.
+                            Data was collected from the MET-API (Norwegian Meteorological Institute).
+                            We used a MVVM architecture which shared the responsibility for retrieving, formatting and displaying data in the app.
+                            </p>
+
+                            <h3>Privacy</h3>
+                            <p>To fulfill the requirements of the app, we require two pieces of privacy-sensitive information from the user: 
+                                location and skin type.</p>
+
+                            <h3>Universal design</h3>
+                            <p>By prioritizing usability and an inclusive design in the design process we allocated good time to do as many user tests for each sprint, and lastly validating the design complied with the WCAG principles.</p>
+                        </div>
+                                    
+                        <div class="about-images">
+                            <ul class="image-list">
+                                <li><img src="pictures/Solbrent/infotid.png" ></li>
+                                <li><img src="pictures/Solbrent/profil.png"></li>
+                            </ul>
+
+                            <ul class="image-list">
+                                <li><img src="pictures/Solbrent/info.png"></li>
+                                <li><img src="pictures/Solbrent/valg.png"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process">
+                    <div class="sprint-buttons">
+                        <h4>The design process in sprints</h4>
+                        <button class="sprint-btn" onclick="showSlide(0)">1</button>
+                        <button class="sprint-btn" onclick="showSlide(1)">2</button>
+                        <button class="sprint-btn" onclick="showSlide(2)">3</button>
+                        <button class="sprint-btn" onclick="showSlide(3)">4</button>
+                    </div>
+
+                <div class="sprint-slideshow">
+                    <button class="sprint-nav-btn prev" onclick="moveSlide(-1)"><img src="icons/previous.svg" alt="Previous"></button>
+
+                    <div class="sprint">
+                        <div class="sprint-container">
+
+                            <div class="sprintImg">
+                                <img src="pictures/Solbrent/req.png" class="image-large">
+                            </div>
+
+                            <div class="sprintText">
+                                <h4>Sprint 1 - exploration + approach</h4>
+                                <p>
+                                    In the beginning, we looked at different closed cases, such as bike paths and fish farming. But we soon agreed that an app focused on UV indexing was the most interesting option. 
+                                    We also saw this idea as highly relevant nationally because Norway ranks third in the world for <strong>skin cancer cases</strong> (World Cancer Research Fund International, 2022).<br><br> 
+                                    This motivated us to create a service that helps users make <strong>informed</strong> decisions when sunbathing, whether in Norway or abroad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sprint">
+                        <div class="sprint-container">
+                            <div class="sprintImg">
+                                <img src="pictures/Solbrent/rikt.png" class="image-medium">
+                                <img src="pictures/Solbrent/affinity.png" class="image-small">
+                            </div>
+
+                            <div class="sprintText">
+                                <h4> Sprint 2 - data collection + analysis</h4>
+                                <p>Prior to the user journey did we make a 'rich picture' to analyze and map out the problem in order to gain a better understanding.
+                                    In the initial stages, we conducted a survey to acquire a broad perspective of the <strong> users' challenges, needs and habits</strong>, which later formed the basis for our system requirements.
+                                    
+                                    <br><br> Two semi-structured interviews was then conducted, including pilot interviews to ensure our questions and environment was optimal.
+                                    We then started the data analysis by transcribing the interviews followed by methodically creating an affinity diagram to organize and categorize the subjects
+
+                                    <br><br>The aim was to <strong>determine the role</strong> our application would play, how this would be <strong>useful</strong> for our user and how it could be effectively utilized.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="sprint">
+                        <div class="sprint-container">
+                            <div class="sprintImg">
+                                <img src="pictures/Solbrent/finalprototype.png"class="image-medium">
+                                <img src="pictures/Solbrent/protoalle.png" class="image-small">
+                            </div>
+
+                            <div class="sprintText">
+                                <h4>Sprint 3 - prototyping + developing</h4>
+                                <p>Early in the design process, we prioritized user involvement by seeking <strong>feedback</strong> on our sketches and low-fidelity prototypes made in Figma and Balsamiq. 
+                                    This approach was crucial for integrating user insights from the start, thereby enhancing the design's relevance and effectiveness.
+                                    We then later on conducted <strong>usability tests</strong> for each high-fidelity prototype, focusing on optimizing the user experience.
+                                    <br> The <strong>"Think-aloud"</strong> technique was used to gather final feedback and insights on our prototypes, eventually leading to the development of our final product.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sprint">  
+                        <h4>Sprint 4 - final finishes + result</h4>   
+                        <div class="sprint-container">  
+                            <div class="sprint4Img">
+                                <img src="pictures/Solbrent/endproduct.png"class="image-large">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="sprint-nav-btn next" onclick="moveSlide(1)"><img src="icons/next.svg" alt="Next"></button>
+                </div>
+
+                    <div class="learn">
+                        <h4>Takeaways</h4>
+                        <p>
+                            It is important to note that the importance of conducting expert interviews was realized later in our project.
+                            As a result, we had to rely predominantly on research articles for our information and data on UV, the Fitzpatrick scale, and skin cancer. 
+                            This was a necessary adjustment due to the timing of project, and is considered a important learning experience for the next time.
+                        </p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        
+    </main>
+
+    <button id="backToTop" class="up" onclick="scrollToTop()"><img src="icons/up.svg" alt="up"></button>
+    <footer>
+        <div class="logo">
+            <li><a href="https://github.com/malinsalehjan"><img src="icons/github.svg"></a></li>
+        </div>
+
+        <div id="contact" class="contact-info">
+            <div class="footer-text">
+                <h5>Let's talk!</h5>
+                <p> +47 92643712 </p>
+                <p> malinsalehjan@gmail.com </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="solbrent.js"></script>
+</body>
+</html>

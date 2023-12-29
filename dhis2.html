@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DHIS2- Developing a web application for a health platform</title>
+    <link rel="stylesheet" href="CSS/dhis2.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+</head>
+
+<body> 
+    <div class="container">
+        <div class="top-left">         
+            <h1 id="jumping-heading"> malin saleh jan </h1>
+        </div>
+
+        <div class="top-right">
+            <nav class="nav">
+                <ul><a href="index.html">home</a></ul>
+                <ul><div id="portfolios" class="portfolios"><a href="index.html#portfolio">projects</a></div></ul> 
+                <ul> <div id="contact" class="contact"><a>contact</a></ul></div>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <div class="contents"> 
+            <h7>DHIS2 - Developing a web application for a health platform</h7>
+            <p> I collaborated with a team of five on this group project to develop a web application for the <strong>DHIS2 platform, one of the world's largest health management information system. </strong>
+                The aim was for us to <strong>digitalize and improve</strong> workflows of "store managers", 
+                to understand the practices and principles of developing such applications for <strong>platform ecosystems</strong>.
+            </p>
+        </div>
+
+
+        <div class="bilder">
+            <ul>
+                <li><img src="pictures/DHIS2/inventory.png"></li>
+                <li><img src="pictures/DHIS2/replenish.png"></li>
+            </ul>
+        </div>
+
+        <div class="project description">
+            <div class="approach">
+                <div class="approach-section">
+                    <h6>Process</h6>
+                    <p> 
+                        This was a short project where we only had 1.5 months to develop a web application for DHIS2 that met the functional and design requirements of the platform. This meant that we had to follow a strict 
+                        time schedule, but still work agile in iterations in order to achieve a desirable application in time.
+                    </p>
+                </div>
+            
+                <div class="approach-section">
+                    <h6>My contributions</h6>
+                    <p> 
+                        In this project, I collaborated in co-creating all the sketches and prototypes for the application in Figma, 
+                        and was also involved in programming and developing it using HTML, CSS, and React.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-timeline">
+                <li><img src="pictures/DHIS2/Timelinedhis2.png"></li>
+            </div>
+
+                <div class="about">
+                    <h2>DHIS2?</h2>
+
+                    <div class="about-content">
+                        <div class="about-text">
+                            <h3>About the case</h3>
+                            <p>The case we were presented with was a realistic scenario inspired by actual needs and use cases from DHIS2 users globally.
+                            Our project involved developing an application for the hypothetical country "Whotopia",
+                            a nation struggling with numerous diseases and a shortage of essential medicines. 
+                            <br><br>This application was intended for all Whotopia's hospitals to aid in the store management of their medicine and goods inventory. 
+                            Considering the current workflow, where records are maintained on paper, and focusing on the system's end users,
+                             our task was to design a DHIS2 application to <strong>support the hospital store managers</strong> in efficiently tracking and managing the 
+                             dispensation of medicines and goods.</p>
+    
+                            <h3>Technical aspects</h3>
+                            <p> HTML, CSS and React were used for dynamic front-end functionality, and the DHIS2 API for efficient data management and inventory control.
+                                Moreover did we use Git for code reviews, working on individual branches when choosing a task.
+                            </p>
+
+                            <h3> Design decisions</h3>
+                            <p> Our goal was to seamlessly develop a smooth transition from paper to digital. For this, the DHIS2's UX library and framework helped us 
+                                stay within the intented style used in this platform such as the color scheme, icons, fonts and layouts.
+
+                                <br><br><strong>Feedback, constrains, mapping and consistensy</strong> were our main focus in order to achieve a good user experience on this site.
+                                 We had various feedbacks serving understandable information for missing input, if the order went through, if the action is not possible, and information about stock predictions/habits. 
+                                This was to make it easy for the user to understand the new system, and provide an explanation of how to use it.
+                            </p>
+                        </div>
+                                    
+                        <div class="about-images">
+                            <li><img src="pictures/DHIS2/routinepaper.png"></li>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="process">
+                    <div class="sprint-buttons">
+                        <h4>The development process</h4>
+                        <button class="sprint-btn" onclick="showSlide(0)">1</button>
+                        <button class="sprint-btn" onclick="showSlide(1)">2</button>
+                        <button class="sprint-btn" onclick="showSlide(2)">3</button>
+                        <button class="sprint-btn" onclick="showSlide(3)">4</button>
+                    </div>
+
+                <div class="sprint-slideshow">
+                    <button class="sprint-nav-btn prev" onclick="moveSlide(-1)"><img src="icons/previous.svg" alt="Previous"></button>
+
+                    <div class="sprint">
+                        <div class="sprint-container">
+
+                            <div class="sprintImg">
+                                <img src="pictures/DHIS2/lofiprot.png" class="image-medium">
+                                <img src="pictures/DHIS2/sketch.png" class="image-small">
+                            </div>
+
+                            <div class="sprintText">
+                                <h4>Iteration 1 - sketching </h4>
+                                <p> After deciding our goals and uncover the requirements for our Minimum Viable Product (MVP) based on the use case we got, we started brainstorming and sketching 
+                                    different potential solutions.The platform had its own UI library and boundary resources we needed to adhere to.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sprint">
+                        <div class="sprint-container"> 
+                            <div class="sprintImg">
+                                <img src="pictures/DHIS2/PrototypesDHIS2.png" class="image-large">
+                            </div>
+
+                            <div class="sprintText">
+                                <h4> Iteration 2 - prototyping </h4>
+                               <p> 
+                                    Once we reached an equal agreement on the initial sketches, we began creating high-fidelity prototypes in Figma and eventually started our implementation phase. 
+                                    We initiated the implementation later than typically advised for this project, as it was important for us to achieve a shared agreement on the UI and UX design of the application,
+                                     ensuring that we would not encounter disagreements at a later stage in the project.
+                               </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="sprint">
+                        <div class="sprint-container">
+                            <div class="sprintImg">
+                                <img src="pictures/DHIS2/trainingmode.png"class="image-small">
+                                <img src="pictures/DHIS2/modules.png"class="image-small">
+                            </div>
+
+                            <div class="sprintText">
+                                <h4>Iteration 3 - testing + futher implementing </h4>
+                                <p>
+                                    We tested the 'look and feel' of the application with a group teacher involved in this project to gather diverse perspectives on the design and identify
+                                    any overlooked elements. The last requirement we implemented was training mode, made as a knowledge resource boundary for uncertain or new users.
+                                    <br><br>The professor was excited about our implementation of this, noting that not many chose to implement this requirement. 
+                                    However, we considered this to be the most important, as the project description indicated that store managers often lack qualifications due to 
+                                    insufficient funding for employing dedicated managers.
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sprint sprint4">  
+                        <div class="sprint-container">  
+                            <div class="sprintImg">
+                                <img src="pictures/DHIS2/inventory.png"class="image-medium">
+                                <img src="pictures/DHIS2/replenish2.png"class="image-medium">
+                                <img src="pictures/DHIS2/history.png"class="image-medium">
+                                <img src="pictures/DHIS2/trainingmode.png"class="image-medium">
+                            </div>
+
+                            <div class="sprintText">
+                                <h4>Iteration 4 - result</h4>   
+                                <p>You can see the full implementation in the video below!</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button class="sprint-nav-btn next" onclick="moveSlide(1)"><img src="icons/next.svg" alt="Next"></button>
+                </div>
+
+                    <div class="learn">
+                            <h4>Takeaways</h4>
+                            <p>
+                                This project taught me a lot, and was very educational in the case of handling various factors in such a big project, and in turning 
+                                a design concept into a fully developed web application in such a short time. The challenging part was not having real users to talk and work with, which made justifying certain design choices
+                                and functionalities difficult.
+                            </p>
+                    </div>
+
+                    <div class="video"> 
+                        <video controls>
+                          <source src="pictures/DHIS2/video.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                </div>
+            </div>  
+
+    </main>
+    
+    <button id="backToTop" class="up" onclick="scrollToTop()"><img src="icons/up.svg" alt="up"></button>
+    <footer>
+        <div class="logo">
+            <li><a href="https://github.com/malinsalehjan"><img src="icons/github.svg"></a></li>
+        </div>
+
+        <div id="contact" class="contact-info">
+            <div class="footer-text">
+                <h5>Let's talk!</h5>
+                <p> +47 92643712 </p>
+                <p> malinsalehjan@gmail.com </p>
+            </div>
+        </div>
+    </footer>
+    <script src="dhis2.js"></script>
+</body>
+</html>
